@@ -1,7 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.Ya</p>
+數量: <input type="number" ng-model="quantity" ng-init="quantity = 1">
+<br>
+單價: <input type="number" ng-model="price" ng-init="price = 299">
+<br>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+總價: {{ quantity * price }}
 </body>
 </html>
