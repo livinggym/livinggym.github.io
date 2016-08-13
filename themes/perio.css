@@ -2,11 +2,40 @@
 	font-family: Arial, Helvetica, sans-serif
 }
 
+h1 {
+	text-align:center;
+	font-size: x-large;
+}
+
 
 input {
+	font-size: 10px;
 	text-align: center;
-	width: 18px;
-	font-family: Arial, Helvetica, sans-serif
+	width: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: -5px;
+}
+
+
+#ctable {
+	display:table;
+}
+.ctr {
+	display: table-row;
+}
+.ctd {
+	display: table-cell;
+}
+
+table {
+	margin: 1px;
+	border-spacing: 1px;
+}
+
+td {
+	text-align: center;
+	padding: 5.5px;
+
 }
 
 @media print {
